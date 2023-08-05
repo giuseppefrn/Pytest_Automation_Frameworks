@@ -7,7 +7,12 @@ Credits to [Elegant Automation Frameworks with Python and Pytest](https://www.ud
 This repository covers the Pytest Framework. For this reason, you may like to check out the [Pytest documentation](https://docs.pytest.org/en/latest/).
 
 ## Some useful notes
-To customize the test search modify the `pytest.ini` file
-- To mark tests import `mark` from `pytest` and mark them using the decorator `@mark.yourmark`
-- To run only marked test run `pytest -m yourmark` or a combination i.e. `pytest -m "yourmark or yourothermark"`
-- Add your marks in the `pytest.ini` file and check them running `pytest --markers`
+- General
+  - To customize the test search modify the `pytest.ini` file
+  - Use `-s` to show your standard output
+- Marks
+  - To mark tests import `mark` from `pytest` and mark them using the decorator `@mark.yourmark`
+  - To run only marked test run `pytest -m yourmark` or a combination i.e. `pytest -m "yourmark or yourothermark"`
+  - Add your marks in the `pytest.ini` file and check them running `pytest --markers`
+- Fixture
+  - Generate a `conftest.py` file for more detail check an example [here](/tests/sportscar/conftest.py)
