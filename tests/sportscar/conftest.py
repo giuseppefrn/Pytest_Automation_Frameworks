@@ -4,7 +4,7 @@ from pytest import fixture
 from selenium import webdriver
 
 
-# scope of the fixture can be session (i.e. one browser per session), function (one browser per function/test) and module
+# scope of the fixture can be session (i.e. one browser per session), function (one browser per function/test), class, module and package
 @fixture(scope='session')
 def chrome_browser():
     browser = webdriver.Chrome()
