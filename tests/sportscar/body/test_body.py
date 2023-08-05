@@ -1,6 +1,11 @@
 from pytest import mark
 
-@mark.smoke
 @mark.body
-def test_body_functions_as_expected():
-    assert True
+class BodyTests:
+
+    @mark.door
+    def test_body_functions_as_expected(self):
+        assert True
+
+    def test_dumper(self):
+        assert True
