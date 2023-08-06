@@ -6,6 +6,9 @@ Credits to [Elegant Automation Frameworks with Python and Pytest](https://www.ud
 ## Details
 This repository covers the Pytest Framework. For this reason, you may like to check out the [Pytest documentation](https://docs.pytest.org/en/latest/).
 
+## Usage
+There are different conftest files, so if you want to run a test be sure to be in the correct parent directory and not in the root.
+
 ## Some useful notes
 - General
   - To customize the test search modify the `pytest.ini` file
