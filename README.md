@@ -19,8 +19,8 @@ This repository covers the Pytest Framework. For this reason, you may like to ch
 - Test reporting
   - Generate a results.xml by using the argument `junitxml`, i.e. `pytest --junitxml="results.xml"`
 - Parser options
-  - Check an example in [conftest.py](/tests/sportscar/conftest.py)
-- [Skips](https://docs.pytest.org/en/latest/how-to/skipping.html)
-  - used in [test_engine.py](tests/sportscar/engine/test_engine.py)
+  - Check an example in [conftest.py](/tests/configuration/conftest.py)
+- [Skips](https://docs.pytest.org/en/latest/how-to/skipping.html) and xfail
+  - used in [test_engine.py](tests/configuration/test_configuration.py)
 - Parallelization
   - install `pytest-xdist` and use the argument `-n` followed by the number of threads you want to use i.e. `-n4` 
