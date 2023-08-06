@@ -16,3 +16,5 @@ This repository covers the Pytest Framework. For this reason, you may like to ch
   - Add your marks in the `pytest.ini` file and check them running `pytest --markers`
 - Fixture
   - Generate a `conftest.py` file for more detail check an example [here](/tests/sportscar/conftest.py)
+- Test reporting
+  - Generate a results.xml by using the argument `junitxml`, i.e. `pytest --junitxml="results.xml"`
